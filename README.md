@@ -3,8 +3,6 @@ COMO SE HIZO EL PROYECTO DE RIO CLARO
 
 # Documentación Técnica Integral y Manual de Despliegue: Río Claro IA
 
-# Documentación Técnica Integral y Manual de Despliegue: Río Claro IA
-
 **Autora:** Miriam Viveros
 
 **Proyecto:** Causas por la Transformación - Certificación AI-901 (Microsoft Azure AI Fundamentals)
