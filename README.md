@@ -33,7 +33,8 @@ El sistema se diseñó bajo una arquitectura moderna, priorizando el rendimiento
 *   **Gestión de Estado:** Uso de arreglos y objetos en JavaScript (`products`, `invoices`) para simular la persistencia de datos en memoria durante la sesión del navegador.
 
 ---
-!https://raw.githubusercontent.com/MIRIAMVIVEROS/RIOCLARO/69a65acb53367f9f0895d83a415eaf89662b9ba7/1.png
+![Pantalla de Login](https://raw.githubusercontent.com/MiriamViveros/proyecto/main/login.png)
+
 ## 4. Análisis Detallado del Código Fuente (Lógica de Negocio)
 Para demostrar el dominio técnico, se detalla la lógica detrás de las funciones principales del sistema:
 
