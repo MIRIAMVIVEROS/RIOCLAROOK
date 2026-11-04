@@ -9,7 +9,7 @@ COMO SE HIZO EL PROYECTO DE RIO CLARO
 
 **Plataforma de Despliegue:** Microsoft Azure App Service (Plan F1 - Gratuito)
 
-**Enlace del Prototipo:** https://rio-claro-ia-miriam.azurewebsites.net
+**Enlace del Prototipo:** https://rio-claro-ia-miriam-gfavebdkhzeccuhx.westus3-01.azurewebsites.net/
 
 ---
 
