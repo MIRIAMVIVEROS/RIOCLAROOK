@@ -31,7 +31,7 @@ El sistema se diseñó bajo una arquitectura moderna, priorizando el rendimiento
 *   **Interfaz de Usuario (UI):** Implementación de un tema oscuro (Dark Mode) con efectos *Glassmorphism* (cristal), acentos en cian neón y tipografía tecnológica (Orbitron), buscando una estética de "centro de operaciones futurista".
 *   **Backend / Alojamiento:** **Microsoft Azure App Service**. Se seleccionó el plan **F1 (Free)** para el despliegue, garantizando un costo de operación de $0.00 MXN.
 *   **Gestión de Estado:** Uso de arreglos y objetos en JavaScript (`products`, `invoices`) para simular la persistencia de datos en memoria durante la sesión del navegador.
-
+![Evidencia](https://github.com/MIRIAMVIVEROS/RIOCLAROOK/blob/main/2.png)
 ---
 ## 4. Análisis Detallado del Código Fuente (Lógica de Negocio)
 Para demostrar el dominio técnico, se detalla la lógica detrás de las funciones principales del sistema:
