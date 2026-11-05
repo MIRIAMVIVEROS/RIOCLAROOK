@@ -24,6 +24,7 @@ La Distribuidora Río Claro, con 22 años de trayectoria, enfrenta un problema c
 
 La solución **Río Claro IA** centraliza estas operaciones en un panel web accesible desde cualquier dispositivo, demostrando cómo la tecnología puede transformar datos dispersos en activos estratégicos.
 ![Evidencia](https://github.com/MIRIAMVIVEROS/RIOCLAROOK/blob/main/2.png)
+---
 ## 3. Arquitectura de la Solución
 El sistema se diseñó bajo una arquitectura moderna, priorizando el rendimiento y el costo cero:
 
@@ -33,6 +34,7 @@ El sistema se diseñó bajo una arquitectura moderna, priorizando el rendimiento
 *   **Gestión de Estado:** Uso de arreglos y objetos en JavaScript (`products`, `invoices`) para simular la persistencia de datos en memoria durante la sesión del navegador.
 *   
 ![Evidencia](https://github.com/MIRIAMVIVEROS/RIOCLAROOK/blob/main/3.png)
+---
 ![Evidencia](https://github.com/MIRIAMVIVEROS/RIOCLAROOK/blob/main/4.png)
 ---
 ## 4. Análisis Detallado del Código Fuente (Lógica de Negocio)
