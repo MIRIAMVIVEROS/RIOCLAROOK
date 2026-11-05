@@ -1,4 +1,4 @@
-# RIOCLAROOK
+# RIO CLARO
 COMO SE HIZO EL PROYECTO DE RIO CLARO
 
 # Documentación Técnica Integral y Manual de Despliegue: Río Claro IA
