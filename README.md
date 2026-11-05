@@ -23,6 +23,7 @@ La Distribuidora Río Claro, con 22 años de trayectoria, enfrenta un problema c
 *   **Mala experiencia del cliente:** Respuestas lentas o inexistentes a consultas de pedidos.
 
 La solución **Río Claro IA** centraliza estas operaciones en un panel web accesible desde cualquier dispositivo, demostrando cómo la tecnología puede transformar datos dispersos en activos estratégicos.
+
 ![Evidencia](https://github.com/MIRIAMVIVEROS/RIOCLAROOK/blob/main/2.png)
 ---
 ## 3. Arquitectura de la Solución
@@ -34,9 +35,11 @@ El sistema se diseñó bajo una arquitectura moderna, priorizando el rendimiento
 *   **Gestión de Estado:** Uso de arreglos y objetos en JavaScript (`products`, `invoices`) para simular la persistencia de datos en memoria durante la sesión del navegador.
 *   
 ![Evidencia](https://github.com/MIRIAMVIVEROS/RIOCLAROOK/blob/main/3.png)
----
+
+
 ![Evidencia](https://github.com/MIRIAMVIVEROS/RIOCLAROOK/blob/main/4.png)
----
+
+
 ## 4. Análisis Detallado del Código Fuente (Lógica de Negocio)
 Para demostrar el dominio técnico, se detalla la lógica detrás de las funciones principales del sistema:
 
@@ -46,6 +49,7 @@ Para demostrar el dominio técnico, se detalla la lógica detrás de las funcion
 *   **Renderizado Dinámico de Tablas:** Las funciones `renderInventory` y `renderInvoices` limpian el cuerpo de las tablas (`innerHTML = ''`) y luego generan filas HTML usando *Template Literals* (`` ` ``) para inyectar las variables de JavaScript directamente en el HTML.
 
 ---
+![Evidencia](https://github.com/MIRIAMVIVEROS/RIOCLAROOK/blob/main/5.png)
 
 ## 5. Principios de IA Responsable Aplicados (AI-901)
 Un pilar fundamental de la certificación es el desarrollo ético. El sistema implementa las siguientes directrices:
@@ -56,6 +60,7 @@ Un pilar fundamental de la certificación es el desarrollo ético. El sistema im
 *   **Transparencia:** El sistema muestra advertencias claras indicando que se trata de un "Modo de Demostración" y explica al usuario de dónde proviene la información mostrada.
 *   **Rendición de Cuentas (Human-in-the-loop):** La IA nunca toma decisiones financieras autónomas. Si una factura parece duplicada, el sistema notifica y *exige* la validación de un humano antes de proceder al pago.
 
+![Evidencia](https://github.com/MIRIAMVIVEROS/RIOCLAROOK/blob/main/6.png)
 ---
 
 ## 6. Ciberseguridad y Gestión de Riesgos
@@ -64,7 +69,12 @@ Aunque el prototipo es una demostración, se aplicaron conceptos de seguridad we
 *   **Sanitización de Entradas:** Se implementó una función `escapeHtml` que convierte caracteres especiales (como `<` o `>`) en entidades HTML. Esto previene ataques de **XSS (Cross-Site Scripting)** si un usuario malicioso intenta inyectar código en los campos de texto de las facturas.
 *   **Gestión de Credenciales:** Las contraseñas no se guardan en texto plano en una base de datos, ya que para esta demo se usan variables efímeras en el cliente. En producción, se requeriría **Azure Key Vault** y **Entra ID**.
 
+![Evidencia](https://github.com/MIRIAMVIVEROS/RIOCLAROOK/blob/main/7.png)
+
 ---
+
+![Evidencia](https://github.com/MIRIAMVIVEROS/RIOCLAROOK/blob/main/8.png)
+
 
 ## 7. Matriz de Pruebas y Casos de Uso
 Para validar la correcta implementación, se ejecutaron las siguientes pruebas de caja negra:
